@@ -4,8 +4,8 @@
 /* eslint prefer-destructuring: off */
 
 const url = require('url');
-const stripAnsi = require('strip-ansi');
 const log = require('loglevel').getLogger('webpack-dev-server');
+const stripAnsi = require('../../lib/util/stripAnsi');
 const socket = require('./socket');
 const overlay = require('./overlay');
 

@@ -3,7 +3,7 @@
 /* eslint import/no-extraneous-dependencies: off, global-require: off */
 
 const $ = require('jquery');
-const stripAnsi = require('strip-ansi');
+const stripAnsi = require('../../lib/util/stripAnsi');
 const socket = require('../default/socket');
 require('./style.css');
 
